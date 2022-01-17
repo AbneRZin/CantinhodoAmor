@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes move {
+    0%{left: 0px;}
+    100%{left: 1200px;}
+}
+
+body{
+    background-color: black;
+    display: flex;
+    
+}
+
+.box2{
+    position:relative;
+    width: 200px;
+    height: 200px;
+    animation-name: move;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+
+.div1{
+    position: absolute;
+    background-image: url("./imagens/coracao.png");
+    background-size: 200px;
+    
+    
+}
+
+.div2{
+    position: absolute;
+    color: white;
+    margin-top: 60px;
+    margin-left: 30px;
+    font-size: 25px;
+}
+
+.p1{
+    
+   
+    width: 750px;
+    height: 500px;
+    margin-top: 200px;
+}
+.p2{
+  
+    width: 550px;
+    height: 500px;
+    margin-top: 200px;
+}
+
+.content{
+   float: right;
+    width:600px;
+    background: #e22a2a;
+    height: 450px;
+    padding: 2%;
+    border:1px solid ;
+}
+.content h1{
+    padding: 10px;
+    text-align: center;
+    color: white;
+
+}
+input[type=text]{
+    width: 80%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+input[type=button]{
+    border: none;
+    width: 17%;
+    float: right;
+    height: 35px;
+}
+button:hover, input[type=button]:hover{
+    background: #ccc;
+}
+button, input[type=button]{ cursor: pointer; }
+
+		button{
+			float: right;
+			width: 25px;
+			padding: 7px;
+		}
+		ul{
+            margin-top: 10px;
+			list-style-type: none;
+			padding: 10px;
+			height: 250px;
+			background: #fff;
+			overflow-y: auto;
+		}
+		li{
+			height: 40px;
+			margin: 15px 0 15px 0;
+			border-bottom: 1px ;
+
+
+		}
+
+.video{
+    margin-right: 700px;
+    width:280px;
+    height: 480px;
+    
+}
+
+@media (max-width:500px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    @keyframes move {
+        0%{left: 0px;}
+        100%{left: 200px;}
+    }
+    
+    body{
+        background-color: black;
+        display: flex;
+        
+    }
+    
+    .box2{
+        position:relative;
+        width: 200px;
+        height: 200px;
+        animation-name: move;
+        animation-duration: 8s;
+        animation-iteration-count: infinite;
+        animation-fill-mode: forwards;
+        animation-timing-function: linear;
+    }
+    .div1{
+        position: absolute;
+        background-image: url("./imagens/coracao.png");
+        background-size: 200px;
+        
+        
+    }
+    
+    .div2{
+        position: absolute;
+        color: white;
+        margin-top: 60px;
+        margin-left: 30px;
+        font-size: 25px;
+    }
+    .p1{
+        position: relative;
+        margin: auto;
+        width: 900px;
+        height: 500px;
+        margin-top: 200px;
+    }
+    .p2{
+        position: absolute;
+        margin-left: 100px;
+     
+        width: 300px;
+        height: 500px;
+        margin-top: 700px;
+    }
+    
+    .content{
+       
+        width:300px;
+        background: #e22a2a;
+        height: 450px;
+        padding: 2%;
+        border:1px solid;
+    }
+    .content h1{
+        padding: 10px;
+        text-align: center;
+        color: white;
+    
+    }
+    input[type=text]{
+        width: 80%;
+        height: 30px;
+        margin-bottom: 10px;
+    }
+    input[type=button]{
+        border: none;
+        width: 17%;
+        float: right;
+        height: 35px;
+    }
+    button:hover, input[type=button]:hover{
+        background: #ccc;
+    }
+    button, input[type=button]{ cursor: pointer; }
+    
+            button{
+                float: right;
+                width: 25px;
+                padding: 7px;
+            }
+            ul{
+                margin-top: 10px;
+                list-style-type: none;
+                padding: 10px;
+                height: 250px;
+                background: #fff;
+                overflow-y: auto;
+            }
+            li{
+                height: 40px;
+                margin: 15px 0 15px 0;
+                border-bottom: 1px ;
+    
+    
+            }
+    
+    .video{
+        
+        
+        width:280px;
+        height: 480px;
+        
+    }
+}
+    
+            
